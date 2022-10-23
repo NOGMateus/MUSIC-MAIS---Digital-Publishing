@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+:root {
+    --primary: #121212;
+    --secondary: #92F7D6;
+    --tertiary: #E93223;
+    --text-color: white;
+    --text-primary: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #121212;
+
+}
+
+/*HEADER*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 4px solid var(--secondary);
+}
+
+.imgMain {
+    width: 75px;
+    height: 75px;
+    border: 4px solid var(--primary);
+    /* border-radius: 60px; */
+}
+
+.navegacao {
+
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    text-decoration: none;
+    color: var(--text-color);
+    /* list-style: none; */
+}
+
+.nav-item-text {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav-svg svg {
+    height: 27px;
+    width: 27px;
+    border: var(--text-color) solid 1px;
+    border-radius: 20px;
+    fill: var(--text-color);
+
+}
+
+/*---------MAIN--------*/
+.main {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 40px;
+    padding-bottom: 70px;
+
+
+}
+
+.SobreNos {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+    font-size: 45px;
+    color: var(--text-color);
+    padding: 30px;
+    padding-bottom: 40px;
+    text-decoration: underline 3px solid var(--secondary);
+}
+
+.imagemLogo {
+    width: 350px;
+    height: 350px;
+    border: 3.5px solid var(--secondary);
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pergunta {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+    font-size: 45px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.paragrafo-1 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.paragrafo-2 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+    font-size: 30px;
+    /* direction: initial; */
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+
+
+
+
+/*-------FOOTER--------*/
+.footer-geral {
+    padding: 20px;
+    border-top: 4px solid var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+/**/
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer-1-img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid var(--secondary);
+    border-radius: 50%;
+}
+
+.footer-1-nomeMarca {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 150px;
+    font-size: 35px;
+    color: var(--text-color)
+}
+
+/**/
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.endereco-contato {
+    color: var(--text-color);
+    gap: 20px;
+    align-items: center;
+
+}
+
+.endereco-titulo {
+    font-size: 30px;
+}
+
+.endereco-info {
+    font-size: 20px;
+}
+
+
+.contato-titulo {
+    font-size: 30px;
+}
+
+.contato-info {
+    font-size: 20px;
+
+}
+
+/**/
+.social-media {
+    text-decoration: none;
+    justify-content: space-around;
+
+
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+
+}
+
+.siga-music {
+    /* padding: 10px; */
+    font-size: 35px;
+    color: var(--text-color);
+    align-items: right;
+}
+
+.nav-media svg {
+    height: 27px;
+    width: 27px;
+    fill: var(--secondary);
+    text-decoration: none;
+    justify-content: space-around;
+
+}
